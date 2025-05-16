@@ -1,0 +1,111 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* 行样式 */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* 列样式 */
+.three.columns {
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.six.columns {
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* 卡片样式 */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* 指标卡片 */
+.metric-card {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card h4 {
+    margin-top: 0;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.metric-card h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.metric-card p {
+    margin-bottom: 0;
+    color: #95a5a6;
+    font-size: 14px;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* 表格样式 */
+.dash-table-container {
+    margin-top: 20px;
+}
+
+/* 按钮样式 */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* 下拉菜单样式 */
+.Select-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .three.columns, .six.columns {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

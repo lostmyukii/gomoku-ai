@@ -1,0 +1,6 @@
+学校名称: 中国科学院大学香港浸会大学联合学院
+官网: http://hkbu-uic.ucas.ac.cn/
+
+招生链接:
+
+抓取出错: HTTPConnectionPool(host='127.0.0.1', port=7890): Read timed out. (read timeout=10)
